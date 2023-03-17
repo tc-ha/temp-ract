@@ -51,12 +51,7 @@ function App() {
           onClick={handleClick}
           style={{
             margin: "5px",
-            width: `${
-              2 *
-              Number.parseInt(
-                window.getComputedStyle(document.querySelector("button")).width
-              )
-            }px`
+            width: 200
           }}
         >
           Button
